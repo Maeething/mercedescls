@@ -5,10 +5,10 @@ h1 {
 
 body {
     margin: auto;
-    background-image: url(poster-img-mb.webp);
+    background-image: url(background.webp);
     font-family: sage;
-    padding-right: 350px;
-    padding-left: 350px;
+    /* padding-right: 350px;
+    padding-left: 350px; */
 }
 
 .menu {
@@ -23,11 +23,13 @@ a {
     padding: 20px;
     color: #808183;
     font-family: sage;
+    transition: ease-out 0.3s;
 
 }
 
 a:hover {
     color: white;
+    transition: ease-in-out 0.3s;
 }
 
 .logo {
@@ -77,6 +79,37 @@ p {
 .page {
     background-color: rgb(43, 42, 42);
     height: 100vh;
+    width: 1200px;
+    margin: auto;
+}
+
+#logo {
+    width: 100px;
+}
+
+#backbutton {
+    width: 70px;
+    float: left;
+    transition: 0.3s ease-in-out;
+   
+}
+
+.logo {
+    text-align: center;
+    clear: both;
+}
+
+.backdiv {
+    position: relative;
+    top: -150px;
+    left: 10px;
+    border: none;
+    padding: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.back {
+    transition: opacity 0.3s ease-in-out;
 }
 
 
