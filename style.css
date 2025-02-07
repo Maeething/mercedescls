@@ -11,8 +11,6 @@ body {
     padding-left: 20px;
 }
 
-
-
 a {
     margin: 30px;
     font-size: 30px;
@@ -164,13 +162,19 @@ td {
 }
 
 .engineimages img:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
     transition: ease-in-out 0.4s;
 }
 
 .interiorimages img {
     width: 400px;
     border-radius: 30px;
+    transition: ease-in-out 0.4s;
+}
+
+.interiorimages img:hover {
+    transform: scale(1.06);
+    transition: ease-in-out 0.4s;
 }
 
 .interiorimages {
@@ -179,13 +183,103 @@ td {
 
 .cimek {
     display: flex;
-    margin-left: 60px;
+    margin-left: 215px;
 }
 
 #bfacel {
-    margin-right: 50px;
+    margin-right: 200px;
 }
 
 #bfacelimg {
-    margin-right: 50px;
+    position: relative;
+    right: 45px;
+}
+
+#afacelimg {
+    position: relative;
+    left: -70px;
+}
+
+.interiorspecs {
+    width: 1000px;
+    background-color: #313131;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+
+#extras {
+    text-align: center;
+}
+
+.interiorspecs li {
+    padding-bottom: 10px;
+}
+
+.exbfl {
+    width: 475px;
+    border-radius: 20px;
+    background-color: #313131;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.exbfl img {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.exbflimg {
+    margin: auto;
+    width: 400px;
+}
+
+.excim {
+    margin-left: 100px;
+}
+
+.exdivs {
+    display: flex;
+}
+
+.exafl img {
+    width: 400px;
+    margin-left: 35px;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.exafl {
+    margin-left: 75px;
+    width: 475px;
+    border-radius: 20px;
+    background-color: #313131;
+    margin-bottom: 20px;
+}
+
+.excim2 {
+    margin-left: 55px;
+}
+
+#exfrontimg {
+    margin-bottom: 50px;
+}
+
+.changes {
+    width: 1000px;
+    margin: auto;
+    background-color: #313131;
+    border-radius: 20px;
+}
+
+.chcim {
+    text-align: center;
+}
+
+li {
+    font-size: 20px;
 }
