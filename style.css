@@ -3,6 +3,7 @@ body {
     background-image: url(background.webp);
     font-family: sage;
     color: #808183;
+    max-width: 100%;
 }
 
 .menu {
@@ -86,6 +87,14 @@ p {
     margin: auto;
 }
 
+.page2 {
+    background-color: rgb(43, 42, 42);
+    height: 100%;
+    width: 1200px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
 #logo {
     width: 100px;
 }
@@ -138,5 +147,45 @@ td {
 }
 
 .engineimages img {
-    width: 600px;
+    width: 400px;
+    border-radius: 30px;
+    transition: ease-in-out 0.4s;
+}
+
+.engineimages {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+#en1 {
+    margin-right: 90px;
+}
+
+.engineimages img:hover {
+    transform: scale(1.5);
+    transition: ease-in-out 0.4s;
+}
+
+.interiorimages img {
+    width: 400px;
+    border-radius: 30px;
+}
+
+.interiorimages {
+  margin-left: 150px;
+}
+
+.cimek {
+    display: flex;
+    margin-left: 60px;
+}
+
+#bfacel {
+    margin-right: 50px;
+}
+
+#bfacelimg {
+    margin-right: 50px;
 }
